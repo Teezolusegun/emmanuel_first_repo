@@ -1,0 +1,63 @@
+body{
+    height: 900px;
+    background-color: thistle;
+}
+
+
+.Nav{
+    height: 50px;
+    
+    margin-top: 20px;
+}
+
+
+.Nav a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.Nav .logout{
+font-size: 20px;
+}
+.Nav .wise{
+padding: auto;
+}
+
+.user{
+    display: flex;
+    justify-content: flex-end;
+}
+#greet{
+    display: flex;
+    justify-content: flex-end;
+}
+#form{
+    height : 200px;
+    border: 3px solid;
+    width: 40%;
+    margin-left: 25%;
+    border-color: blueviolet;
+    border-radius: 4px;
+   
+}
+#form input{
+    width: 98%;
+    height: 35px;
+    border-radius: 9px;
+   padding: auto;
+}
+.this{
+    margin-left: 40%;
+    font-size: 30px;
+    background-color: blueviolet;
+    border-radius: 9px;
+}
+#pick{
+    font-size: 20px;
+    margin-right: 20px;
+    color: blue;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 5px;
+}
