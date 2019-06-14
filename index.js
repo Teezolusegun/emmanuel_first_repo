@@ -4,6 +4,21 @@ const greet = greetings.split(" ")
 const demo = document.querySelector('#pick')
 demo.innerHTML = `  Welcome  ${greet[0]} `
 
+const add = document.querySelector(".btn")
+add.addEventListener("click", ()=>{
+    document.querySelector(".bg-modal").style.display = "flex"
+})
+
+const close = document.querySelector(".close")
+close.addEventListener("click", ()=>{
+    document.querySelector(".bg-modal").style.display = "none"
+})
+const logout = document.querySelector(".logout")
+logout.addEventListener("click", ()=>{
+    windows.href = "form.html"
+})
+
+
 
 
 
@@ -28,7 +43,7 @@ let product = {
        li.appendChild(document.createTextNode(item.name))
        li.appendChild(document.createTextNode(item.method))
        li.appendChild(document.createTextNode(item.price))
-       display.appendChild(li, )
+       display.appendChild(li)
 
    })
    console.log(theProduct)
